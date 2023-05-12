@@ -12,4 +12,4 @@ We first switch the road networks to editing mode in ArcGIS. To extract points f
 
 ## 3. Download PanoIDs by Longtitude and Latitude
 
-Use **Download PanoID.ipynb** to download PanoIDs, the column names in points.csv are Id, lon, and lat. You can modify the code to use your own file format, and change the corresponding code line from xy = [float(line_arr[1]), float(line_arr[2])]. X is longtitude, Y is latitude.
+Use [**Download PanoID.ipynb**](https://github.com/ShengaoYi/Google-StreetView-Download/blob/main/Download%20PanoID.ipynb) to download PanoIDs, the column names in points.csv are Id, lon, and lat. You can modify the code to use your own file format, and change the corresponding code line from xy = [float(line_arr[1]), float(line_arr[2])]. X is longtitude, Y is latitude.

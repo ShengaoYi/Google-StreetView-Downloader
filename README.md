@@ -17,3 +17,7 @@ Use [**Download PanoID.ipynb**](https://github.com/ShengaoYi/Google-StreetView-D
 ## 4. Download Images by PanoIDs
 
 Use [**Download GSV.ipynb**](https://github.com/ShengaoYi/Google-StreetView-Download/blob/main/Download%20GSV.ipynb) to download Google Streetview Images. UserAgent.csv is to avoid IP blocking. We use **check_already()** function to prevent duplicate downloads, by creating a downloaded.csv, instead of accessing the images' path in the stored folder, since when there is a huge number of images in the folder, it will be too slow to access them. So we record the image id when it has been successfully downloaded.
+
+## License
+
+This project is licensed under the MIT License.

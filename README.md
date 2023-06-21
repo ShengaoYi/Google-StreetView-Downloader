@@ -11,7 +11,9 @@ Generally, we want to download a whole city's road networks, not a rectangle are
 We first switch the road networks to editing mode in ArcGIS. 
 - To extract points from a random road network, we use the **"Densify"** tool, typically setting the interval to 50 meters. 
 - Then, use the tool **"Features Vertices to Points"** to obtain the points shapefile. 
-- Calculate their longtitude and latitude. Remember to save the edits. 
+- Calculate their longtitude and latitude. Remember to save the edits.
+
+Other simple way using QGIS tool **"Points along geometry"**!
 
 ## 3. Download PanoIDs by Longtitude and Latitude
 
